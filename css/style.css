@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body { 
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;}
+
+
+
+/***** BANNER *****/
+
+
+.banner {
+    background-image: url('../img/banner-bg-2.png');
+    background-size: cover; /*** Para cobrir a seção inteira **/
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.banner__texto {
+    color: #fff;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.banner__titulo{
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+.banner__subtitulo {
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+
+.btn {
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    color: #235f5f;
+    padding: 10px;
+    border-style: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-top: 1%;
+    display: inline;
+}
+
+.btn:hover{
+    background-color: #235f5f;
+    color: #ffffff;
+    transition: 1s;
+}
+
+
+/***** SOBRE MIM ******/ 
+
+
+.sobre-mim {
+    padding-left: 20%;
+    padding-bottom: 5%;
+    
+}
+
+.sobre-mim__descricao{
+    display: inline-block;
+    width: 40%;
+}
+
+
+.sobre-mim__habilidades {
+    display: inline-block;
+    width: 40%;
+    margin-left: 3%;
+    vertical-align: top;
+    margin-top: 1%;
+}
+
+
+.sobre-mim h2{
+    color: darkgray;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+
+}
+
+.sobre-mim h3{
+    color: #235f5f;
+    margin-bottom: 5%;
+
+}
+
+.sobre-mim p{
+    line-height: 1.5em;
+    padding: 7px;
+    text-align: justify;
+    text-indent: 3em;
+}
+
+
+.sobre-mim li{
+    line-height: 1.5em;
+}
+
+.btn-verde{
+    border: solid 2px #235f5f;
+    margin-left: 30%;
+}
+
+
+/****** RODAPÉ ******/
+
+.rodape {
+    background-color: #efefef;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 20%;
+}
+
+
+.rodape__contatos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contatos__link{
+    background-color: #235f5f;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contatos__link:hover{
+    background-color: #369090;
+    transition: 1s;
+
+}
+
+
+.contatos__link-img{
+    width: 50px;
+}
+
+
+.contatos__link-img-fb{
+    width: 30px;
+}
+
+
+.contatos__link h4{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contatos__link p{
+    color: #aad5cd;
+}
+
+/****** COPYRIGHT ******/
+
+.copyright {
+    padding: 1%;
+    text-align: center;
+    color: white;
+    background-color: #235f5f;
+}
+
+
+
+
+
+
+/**** LINKS E TEXTOS ****/
+
+a:link {
+    text-decoration: none;
+
+}
+
+
+.destaque{
+    font-weight: bolder;
+    color: #235f5f;
+
+}
+
